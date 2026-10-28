@@ -22,5 +22,5 @@ inputs = {
   # Check your installed chart repo if an older version is needed.
   argocd_chart_version = "10.10.3"
   greeting             = "Hello from DEV (Terraform child module)!"
-  demo_replicas        = 1
+  demo_replicas        = 2
 }
