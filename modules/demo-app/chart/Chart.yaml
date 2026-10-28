@@ -1,0 +1,6 @@
+apiVersion: v2
+name: hello-helm
+version: 0.1.0
+appVersion: "1.0.0"
+description: Minimal nginx chart to demonstrate Terraform module + Helm release.
+type: application

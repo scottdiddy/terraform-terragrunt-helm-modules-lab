@@ -1,0 +1,9 @@
+# Default chart values; Terraform yamlencode overrides both.
+replicaCount: 1
+greeting: "Hello from default chart values"
+image:
+  repository: nginx
+  tag: "1.27-alpine"
+  pullPolicy: IfNotPresent
+service:
+  port: 80

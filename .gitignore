@@ -1,0 +1,9 @@
+# Local Terraform/Terragrunt working files and state
+**/.terraform/
+**/.terragrunt-cache/
+**/terraform.tfstate
+**/terraform.tfstate.*
+live/.state/
+crash.log
+*.tfplan
+# Keep .terraform.lock.hcl in Git when Terraform generates it.

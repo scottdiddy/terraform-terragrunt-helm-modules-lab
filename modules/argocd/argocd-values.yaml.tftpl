@@ -1,0 +1,9 @@
+# Terraform renders this text BEFORE Helm sees it.
+# ${domain} and ${server_replicas} refer to templatefile()'s input map.
+global:
+  domain: ${domain}
+configs:
+  params:
+    server.insecure: true # Local lab: ArgoCD server HTTP behind port-forward
+server:
+  replicas: ${server_replicas}
